@@ -104,4 +104,19 @@ alert(hiddenNum);
 
 
 
+function magicBall() {
 
+    let listOfResposes = ["Maybe", "Yes", "Doubt It", "Ask Later", "Does It Matter?", "What do you think?", "Please Shake Again Later", 
+    "I Really Don't Want To Say", "I Rather You Ask Someone Else", "Ask Your Bestfriend", "Don't Look At, I Don't Have The Answer", "Perhaps", "A-B-S-O-L-U-T-E-L-Y", "BIG YES", "BIG NO", 
+    "MAKING IT SO", "I'll ask the Genie", "Genie Says Yes", "Genie Just Laughed...", "Clap and It Will Be", "Butter Not Expect It", "Koala Tea Time right now please don't disturb", 
+    "Future Looks Bright", "Believe In The Heart Of The Cards", "Never Give Up, Never Surrender", "Only If You Try", "Don't Doubt It" ];
+
+
+
+
+
+    let randomNum = Math.random();
+    let randomAnswer = Math.floor(randomNum * listOfResposes.length )
+
+    alert(listOfResposes[randomAnswer]);
+}
