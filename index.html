@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+
+
+      <!-- COIN FLIP -->
+      <h1>COIN FLIP GAME</h1>
+    <form id="coinFlipGame">
+      <div>
+        <label for="guessFlip">Choose Heads or Trails</label>
+        <br>
+        <input id="guessFlip" name="guessFlip" type="text">
+        <br>
+        <button onclick="submitFlipGuess()">Submit Flip Guess</button>
+        <br>
+        <br>
+      </div>
+    </form>
+    <span id="result"></span>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+
+
+
+      <!-- GUESSING GAME -->
+
+      <h1>GUESSING GAME</h1>
+      <input id="difficulty" name="difficulty" type="number" placeholder="Enter Diffculty">
+      <br>
+      <button onClick="adjustDiff()">Submit Difficulty</button>
+      <button onClick="checkDifficulty()">Check Difficulty</button>
+    <form id="guessingGame">
+      <div>
+        <br>
+        <label for="guess">Guess The Number</label>
+        <br>
+        <input id="guess" name="guess" type="number" placeholder="Enter your guess">
+        <br>
+        <button onClick="guessingGame()">Submit Guess</button>
+        <br>
+      </div>
+    </form>
+
+
+
+    
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
