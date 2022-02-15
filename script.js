@@ -80,10 +80,8 @@ function checkDifficulty() {
 
 
 function guessingGame () {
-    alert(gameDifficulty);
 let hiddenNum = Math.floor(Math.random() * 10 + 1);
 let userNumInput = document.forms["guessingGame"]["guess"].value;
-alert(gameDifficulty);
 alert(hiddenNum);
     if(userNumInput == hiddenNum){
         alert("You guessed correct!")
